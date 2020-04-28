@@ -1,0 +1,276 @@
+{
+	"@context":{
+      "@vocab":"http://schema.org/",
+      "seavox":"http://vocab.nerc.ac.uk/collection/L06/current/",
+      "geolink": "http://schema.geolink.org/1.0/base/main#"
+   },
+	"@id": "https://doi.org/10.1594/PANGAEA.887579",
+	"@type": "Dataset",
+	"identifier": "https://doi.org/10.1594/PANGAEA.887579",
+	"url": "https://doi.pangaea.de/10.1594/PANGAEA.887579",
+	"creator": [
+		{
+			"@id": "https://orcid.org/0000-0002-1871-0719",
+			"@type": "Person",
+			"familyName": "Wulff",
+			"givenName": "Thorben",
+			"identifier": "https://orcid.org/0000-0002-1871-0719",
+			"url": "http://www.awi.de/en/about-us/organisation/staff/thorben-wulff.html",
+			"email": "thorben.wulff@awi.de"
+		},
+		{
+			"@type": "Person",
+			"familyName": "Bauerfeind",
+			"givenName": "Eduard",
+			"url": "http://www.awi.de/en/about-us/organisation/staff/eduard-bauerfeind.html",
+			"email": "eduard.bauerfeind@awi.de"
+		},
+		{
+			"@id": "https://orcid.org/0000-0002-7200-0099",
+			"@type": "Person",
+			"familyName": "von Appen",
+			"givenName": "Wilken-Jon",
+			"identifier": "https://orcid.org/0000-0002-7200-0099",
+			"url": "http://www.awi.de/en/about-us/organisation/staff/wilken-jon-von-appen.html",
+			"email": "wilken-jon.von.appen@awi.de"
+		},
+		{
+			"@type": "Person",
+            "name": "Uwe Wulff",
+			"familyName": "Wulff",
+			"givenName": "Uwe"
+		},
+		{
+			"@type": "Person",
+            "name": "Jonas Hagemann",
+			"familyName": "Hagemann",
+			"givenName": "Jonas"
+		},
+		{
+			"@type": "Person",
+            "name": "Sascha Lehmenhecker",
+			"familyName": "Lehmenhecker",
+			"givenName": "Sascha"
+		}
+	],
+	"name": "Vertical profiles of physical and biogeochemical parameters obtained by AWI's AUV \"PAUL\" during a dive in the vicinity of an ice tongue in the Fram Strait in 2013",
+	"publisher": {
+		"@type": "Organization",
+		"name": "PANGAEA",
+		"disambiguatingDescription": "Data Publisher for Earth & Environmental Science",
+		"url": "https://www.pangaea.de/"
+	},
+	"includedInDataCatalog": {
+		"@type": "DataCatalog",
+		"name": "PANGAEA",
+		"disambiguatingDescription": "Data Publisher for Earth & Environmental Science",
+		"url": "https://www.pangaea.de/"
+	},
+	"datePublished": "2018-03-21",
+	"description": "AWI's autonomous underwater vehicle \"PAUL\" covered two 10 km long transects in the Fram Strait on July 2nd / 3rd 2013 to investigate the physical-ecological coupling at an ice edge. The dive was orientated perpendicular to a meltwater front. The meltwater front was associated to a large ice tongue extending from the main ice edge. Every 800 - 1000 m, the vehicle ascended vertically from 50 m water depth to a minimal depth of 3 m to gather a high resolution profile of the following parameters: Temperature, Conductivity, Pressure, Chlorophyll a, CDOM, Dissolved Oxygen, Photosynthetically Active Radiation, and Nitrate.\nThe dataset contains the data of the vertical ascends only. Due to the correction process, which takes into account the pitch angle of the vehicle, pump times, and the position of the respective instrument inside the vehicle, each parameter has an individual depth stamp.",
+	"variableMeasured": [
+		{
+			"@type": "PropertyValue",
+			"name": "DATE/TIME",
+			"url": "http://en.wikipedia.org/wiki/ISO_8601"
+		},
+		{
+			"@type": "PropertyValue",
+			"name": "LATITUDE",
+			"url": "http://en.wikipedia.org/wiki/ISO_6709"
+		},
+		{
+			"@type": "PropertyValue",
+			"name": "LONGITUDE",
+			"url": "http://en.wikipedia.org/wiki/ISO_6709"
+		},
+		{
+			"@type": "PropertyValue",
+			"name": "DEPTH, water",
+			"unitText": "m",
+			"description": "PAR"
+		},
+		{
+			"@type": "PropertyValue",
+			"name": "Radiation, photosynthetically active",
+			"unitText": "µmol/m**2/s",
+			"url": "https://en.wikipedia.org/wiki/Photosynthetically_active_radiation",
+			"description": "corrected"
+		},
+		{
+			"@type": "PropertyValue",
+			"name": "DEPTH, water",
+			"unitText": "m",
+			"description": "CDOM"
+		},
+		{
+			"@type": "PropertyValue",
+			"name": "Organic matter, colored dissolved",
+			"unitText": "ppb (QSE)"
+		},
+		{
+			"@type": "PropertyValue",
+			"name": "DEPTH, water",
+			"unitText": "m",
+			"description": "Chlorophyll"
+		},
+		{
+			"@type": "PropertyValue",
+			"name": "Chlorophyll a",
+			"unitText": "µg/l",
+			"url": "https://doi.pangaea.de/10013/epic.32187.d001"
+		},
+		{
+			"@type": "PropertyValue",
+			"name": "DEPTH, water",
+			"unitText": "m",
+			"description": "CTD"
+		},
+		{
+			"@type": "PropertyValue",
+			"name": "Conductivity",
+			"unitText": "mS/cm",
+			"url": "https://en.wikipedia.org/wiki/Electrical_conductivity"
+		},
+		{
+			"@type": "PropertyValue",
+			"name": "Temperature, water",
+			"unitText": "°C",
+			"description": "ITS 90"
+		},
+		{
+			"@type": "PropertyValue",
+			"name": "Pressure, water",
+			"unitText": "dbar"
+		},
+		{
+			"@type": "PropertyValue",
+			"name": "Salinity",
+			"description": "practical, PSU (PSS-78)"
+		},
+		{
+			"@type": "PropertyValue",
+			"name": "Salinity, absolute",
+			"unitText": "g/kg",
+			"url": "http://www.teos-10.org",
+			"description": "TEOS-10"
+		},
+		{
+			"@type": "PropertyValue",
+			"name": "Temperature, water, conservative",
+			"unitText": "°C"
+		},
+		{
+			"@type": "PropertyValue",
+			"name": "Temperature, water, potential",
+			"unitText": "°C",
+			"description": "TEOS-10"
+		},
+		{
+			"@type": "PropertyValue",
+			"name": "Density, sigma, in situ",
+			"unitText": "kg/m**3",
+			"description": "TEOS-10"
+		},
+		{
+			"@type": "PropertyValue",
+			"name": "Density, potential",
+			"unitText": "kg/m**3"
+		},
+		{
+			"@type": "PropertyValue",
+			"name": "Oxygen solubility",
+			"unitText": "ml/l"
+		},
+		{
+			"@type": "PropertyValue",
+			"name": "DEPTH, water",
+			"unitText": "m",
+			"description": "Brunt-Vaisala"
+		},
+		{
+			"@type": "PropertyValue",
+			"name": "Brunt-Väisälä frequency",
+			"unitText": "1/s**2",
+			"url": "http://en.wikipedia.org/wiki/Brunt–Väisälä_frequency",
+			"description": "TEOS-10"
+		},
+		{
+			"@type": "PropertyValue",
+			"name": "DEPTH, water",
+			"unitText": "m",
+			"description": "DO"
+		},
+		{
+			"@type": "PropertyValue",
+			"name": "Oxygen",
+			"unitText": "µmol/l"
+		},
+		{
+			"@type": "PropertyValue",
+			"name": "Oxygen saturation",
+			"unitText": "%"
+		},
+		{
+			"@type": "PropertyValue",
+			"name": "DEPTH, water",
+			"unitText": "m",
+			"description": "Nitrate"
+		},
+		{
+			"@type": "PropertyValue",
+			"name": "Nitrate",
+			"unitText": "µmol/l"
+		}
+	],
+	"recordedAt":[
+      {
+         "@type":"Event",
+         "additionalType":"http://schema.geolink.org/1.0/pattern/cruise#Cruise",
+         "name":"MSM29_440-5",
+         "location":{
+            "@type":"Place",
+            "name":"North Greenland Sea",
+            "address":"North Greenland Sea",
+			"geo": {
+			"@type": "GeoShape",
+			"line": "78.753080,5.144880 78.714727,5.100582"
+			}
+         },
+         "url":"https://doi.pangaea.de/10013/epic.44783.d023",
+         "recordedIn":{
+            "@type":"CreativeWork",
+            "isBasedOn":{
+               "@type":"Vehicle", 
+               "additionalType":"http://vocab.nerc.ac.uk/collection/L06/current/25/",
+               "identifier":"https://hdl.handle.net/10013/sensor.664525cf-45b9-4969-bb88-91a1c5e97a5b",
+               "name":"AWI AUV Polar Autonomous Underwater Laboratory"
+            }
+         },
+         "startDate":"2013-07-02T19:58:00",
+         "endDate":"2013-07-03T02:58:00"
+      }
+   ],
+	"spatialCoverage": {
+		"@type": "Place",
+		"geo": {
+			"@type": "GeoShape",
+			"box": "78.71472742 5.100581869 78.794343 5.185734068"
+		}
+	},
+	"temporalCoverage": "2013-07-02T20:45:38/2013-07-03T01:35:26",
+	"inLanguage": "en",
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"distribution": [
+		{
+			"@type": "DataDownload",
+			"fileFormat": "text/html",
+			"contentUrl": "https://doi.pangaea.de/10.1594/PANGAEA.887579?format=html"
+		},
+		{
+			"@type": "DataDownload",
+			"fileFormat": "text/tab-separated-values",
+			"contentUrl": "https://doi.pangaea.de/10.1594/PANGAEA.887579?format=textfile"
+		}
+	]
+}
